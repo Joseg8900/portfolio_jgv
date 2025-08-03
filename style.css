@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(24, 26, 27);
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 100%;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 35%;
+}
+
+.menu{
+    background-color: rgb(47, 79, 66);
+    height: 100%;
+    margin: 0;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+}
+
+.menu li{
+    display: block;
+    color: rgb(204, 180, 140); /* Earthy font color */
+    padding: 10px;
+    border-bottom: 1px solid rgb(44, 53, 57);
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+.blue {
+    padding: 15%;
+    padding-top: 2rem;
+}
+
+.blue h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.blue img{
+    float: left;
+    margin-right: 1rem;
+}
+
+.desc{
+    display: flex;
+}
+
+.desc ul{
+    padding-right: 20%;
+}
