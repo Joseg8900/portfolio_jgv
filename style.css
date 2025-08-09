@@ -1,21 +1,22 @@
-html{
+html,body{
     background-color: rgb(24, 26, 27);
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 1fr 19fr;
     height: 100%;
 }
 
 .banner{
     display: block;
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
-    object-position: 20% 35%;
+    object-position: 10% 30%;
 }
 
 .menu{
@@ -32,7 +33,7 @@ html{
 
 .menu li{
     display: block;
-    color: rgb(204, 180, 140); /* Earthy font color */
+    color: rgb(204, 180, 140);
     padding: 10px;
     border-bottom: 1px solid rgb(44, 53, 57);
     text-align: center;
@@ -43,8 +44,10 @@ html{
 }
 
 .blue {
+    margin-bottom: 0;
     padding: 15%;
-    padding-top: 2rem;
+    padding-top: 1%;
+    overflow: auto;
 }
 
 .blue h1{
